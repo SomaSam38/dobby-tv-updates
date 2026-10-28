@@ -1,19 +1,25 @@
-# Dobby TV — family downloads
+# Dobby TV + optional Casa Home — family downloads
 
-Dobby TV is a personal Samsung TV player for Sam, family and friends. It includes no channels or provider accounts; each person uses their own playlist details.
+[Download the combined Mac installer 2.0.1](https://github.com/SomaSam38/dobby-tv-updates/releases/download/installer-2.0.1/Dobby-TV-Installer-Mac-2.0.1.zip)
 
-[Download the Mac installer and updater 1.4.1](https://github.com/SomaSam38/dobby-tv-updates/releases/download/installer-1.4.1/Dobby-TV-Installer-Mac-1.4.1.zip)
+Includes **Dobby TV 1.9.80** and optional **Casa Home 2.6.30**. Intel or Apple silicon, macOS 13+. Developer ID signed and notarised by Apple. No AI, Codex, Terminal, system Python or Tizen Studio needed.
 
-Apple silicon or Intel, macOS 13+. Move the app to Applications and follow START HERE. No AI, Codex, Terminal, system Python or Tizen Studio is needed. Samsung Developer Mode and a Samsung browser sign-in are part of the initial TV setup. Allow Local Network access. The Mac can be switched off for normal TV viewing.
+Unzip, move Dobby TV Installer to Applications, open it and follow the setup guide. Allow Local Network access. Keep the Mac and TV on the same home network. Samsung Developer Mode and a Samsung sign-in are part of initial TV setup. Confirm the TV is already on and unused before setup. Open Dobby TV afterwards and enter your own playlist login. No channels or provider accounts are included.
 
-The installer includes TV build 1.9.76. After setup, choose **Check for updates** for the latest TV build, **1.9.80**, which adds restart and mark-as-unwatched controls. Enable automatic checks to check and download releases while the Mac is awake. Installing asks you to confirm the television is free, saves current data, updates in place, and checks saved records again after a cold app restart. Keep the TV on and the Mac on the same home network. This is not a TV-browser or Samsung Store installer.
+**Casa Home is optional.** Choose Add Casa Home if wanted, then choose its separate TV Home screen preference. Keep current is the default: existing choices are retained and a new Casa installation starts with automatic Home takeover off. Existing apps are kept rather than overwritten. Casa setup/backups require the Mac on the same network; the iPhone relay does not install Casa.
 
-Installer 1.4.1 supports coordinated backups for Casa 2.6.25 and 2.6.26 on the same network. Other Casa versions and Casa backups through the iPhone route stop before installation. Existing installations from another Mac require a verified setup file from Sam and their original signing files. If setup is interrupted, contact Sam; do not uninstall or reset Dobby to retry.
+**Already have Dobby?** An installation from another Mac needs a verified setup file from Sam and its original signing files before this Mac can update it. An unpaired Casa-only installation needs original-author recovery. Never uninstall/reset either app or replace signing certificates to retry. Keep the private support folder for original certificates and encrypted backups.
 
-Viewing data, accounts, encrypted backups and private signing certificates stay on the owner's TV/Mac. They are not uploaded here. Keep the app's private support folder and original certificates for future updates. Never replace signing certificates to work around an update error.
+Setup remembers its choices and receipts and offers Resume Setup Checks after interruption. Uncertain install acknowledgements never authorise a blind reinstall. Current progress, settings, pairings, alarms and audio are backed up and checked across independent app restarts. Supported Casa backup versions are 2.6.25, 2.6.26, 2.6.29 and 2.6.30; unsupported versions stop safely. Explicit Home preference changes require Casa 2.6.29 or 2.6.30.
 
-The Mac app is Developer ID signed and notarised by Apple, with its approval attached. Do not disable Mac security settings.
+Enable automatic Dobby update checks to check/download while the Mac is awake. Installation waits for TV-free confirmation and fresh saved-data checks. The Mac is not needed for normal TV viewing. This is not a TV-browser or Samsung Store installer.
 
-Dobby TV is based on [OpenIPTV](https://github.com/shayanline/OpenIPTV). Its MIT licence and all third-party notices are included in the app package. Release metadata is Ed25519 signed; a download server cannot authorise changed code without the separate release signing key. Future code is tested and published by Sam; the updater does not generate releases itself.
+**Family beta validation:** 205 automated checks, Intel/Apple silicon package checks, Apple notarisation/Gatekeeper and compact-window controls passed. The exact installer passed the physical existing-household setup and cold-retention checks on Sam’s TV on 28 October 2026, retaining Dobby 1.9.80, Casa 2.6.29 and all verified saved data. That test made no install writes. Fresh installation on an empty TV and full-power Home startup remain unverified. Samsung certificate/TV support may require opening Casa Home manually after a full restart.
 
-Mac ZIP SHA-256: `522857d6301cab47b45538dfdae2bef789b8d55d15b43f0dfb2dab2309693648`
+Private accounts, signing keys and encrypted backups stay on the owner’s TV/Mac and are not uploaded here. The installer includes local privacy-safe support export. Do not disable Mac security settings.
+
+Dobby TV is based on [OpenIPTV](https://github.com/shayanline/OpenIPTV); Casa Home and signing tools are based on AeroTizen. MIT and third-party notices are included. TV update metadata is Ed25519 signed; future releases are tested and published by Sam.
+
+Mac ZIP SHA-256: `90b7a126cb7c1d41dcb480fd9c17e66a08d807d9f6a467699193058a4b6f6cb1`
+
+[Previous Dobby-only installer 1.4.1](https://github.com/SomaSam38/dobby-tv-updates/releases/download/installer-1.4.1/Dobby-TV-Installer-Mac-1.4.1.zip)
