@@ -1,6 +1,8 @@
 # Dobby TV + optional Casa Home — family downloads
 
-[Download the combined Mac installer 2.0.1](https://github.com/SomaSam38/dobby-tv-updates/releases/download/installer-2.0.1/Dobby-TV-Installer-Mac-2.0.1.zip)
+[Download the latest combined Mac installer](https://github.com/SomaSam38/dobby-tv-updates/releases/latest/download/Dobby-TV-Installer-Mac.zip)
+
+This permanent download link follows the latest published installer. It currently downloads **2.0.1**; keep sharing the same link for future versions.
 
 Includes **Dobby TV 1.9.80** and optional **Casa Home 2.6.30**. Intel or Apple silicon, macOS 13+. Developer ID signed and notarised by Apple. No AI, Codex, Terminal, system Python or Tizen Studio needed.
 
@@ -23,3 +25,7 @@ Dobby TV is based on [OpenIPTV](https://github.com/shayanline/OpenIPTV); Casa Ho
 Mac ZIP SHA-256: `90b7a126cb7c1d41dcb480fd9c17e66a08d807d9f6a467699193058a4b6f6cb1`
 
 [Previous Dobby-only installer 1.4.1](https://github.com/SomaSam38/dobby-tv-updates/releases/download/installer-1.4.1/Dobby-TV-Installer-Mac-1.4.1.zip)
+
+## Publishing future combined installers
+
+Every new latest installer release must include `Dobby-TV-Installer-Mac.zip`, containing the exact signed, notarised and validated versioned ZIP, plus its matching SHA-256 file. Keep the versioned asset for reproducibility. Verify both files have the same SHA-256 and anonymously verify the permanent download link after publication. Only mark a release as latest when the combined installer assets are present; keep other releases from moving this download link. Update the included app versions and validation notes here for each release.
