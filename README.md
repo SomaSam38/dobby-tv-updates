@@ -2,11 +2,13 @@
 
 [Download the latest combined Mac installer](https://github.com/SomaSam38/dobby-tv-updates/releases/latest/download/Dobby-TV-Installer-Mac.zip)
 
-This permanent download link follows the latest published installer. It currently downloads **2.0.1**; keep sharing the same link for future versions.
+This permanent download link follows the latest published installer. It currently downloads **2.0.2**; keep sharing the same link for future versions.
 
-Includes **Dobby TV 1.9.80** and optional **Casa Home 2.6.30**. Intel or Apple silicon, macOS 13+. Developer ID signed and notarised by Apple. No AI, Codex, Terminal, system Python or Tizen Studio needed.
+Includes **Dobby TV 1.9.81** and optional **Casa Home 2.6.30**. Intel or Apple silicon, macOS 13+. Developer ID signed and notarised by Apple. No AI, Codex, Terminal, system Python or Tizen Studio needed.
 
 Unzip, move Dobby TV Installer to Applications, open it and follow the setup guide. Allow Local Network access. Keep the Mac and TV on the same home network. Samsung Developer Mode and a Samsung sign-in are part of initial TV setup. Confirm the TV is already on and unused before setup. Open Dobby TV afterwards and enter your own playlist login. No channels or provider accounts are included.
+
+**Skip Intro:** during an episode press OK, choose Intro timing, set its start/end and save for the series or that episode. During the saved range, choose Skip Intro. Timings are set by you; Dobby does not recognise introductions automatically.
 
 **Casa Home is optional.** Choose Add Casa Home if wanted, then choose its separate TV Home screen preference. Keep current is the default: existing choices are retained and a new Casa installation starts with automatic Home takeover off. Existing apps are kept rather than overwritten. Casa setup/backups require the Mac on the same network; the iPhone relay does not install Casa.
 
@@ -16,13 +18,13 @@ Setup remembers its choices and receipts and offers Resume Setup Checks after in
 
 Enable automatic Dobby update checks to check/download while the Mac is awake. Installation waits for TV-free confirmation and fresh saved-data checks. The Mac is not needed for normal TV viewing. This is not a TV-browser or Samsung Store installer.
 
-**Family beta validation:** 205 automated checks, Intel/Apple silicon package checks, Apple notarisation/Gatekeeper and compact-window controls passed. The exact installer passed the physical existing-household setup and cold-retention checks on Sam’s TV on 28 October 2026, retaining Dobby 1.9.80, Casa 2.6.29 and all verified saved data. That test made no install writes. Fresh installation on an empty TV and full-power Home startup remain unverified. Samsung certificate/TV support may require opening Casa Home manually after a full restart.
+**Family beta validation:** 205 installer checks, Intel/Apple silicon package checks, Apple notarisation/Gatekeeper and the unchanged compact-window UI checks pass. Dobby1.9.81 passed253 selected TV checks, actual Chromium69/Chrome156 packaged-widget journeys and layout/gap checks. On29October2026 the reference Samsung updated1.9.80→1.9.81 with original signing files and fresh encrypted backups; all Dobby records and Casa2.6.29 storage matched across independent cold restarts. The real remote Skip Intro action landed at90.2seconds; the temporary test timing was removed, the original saved point restored and all canonical records matched after another cold restart. The full older-TV benchmark exceeded its limits on a busy Mac and flagged those results as unreliable; no new all-model performance acceptance is claimed. Fresh installation on an empty TV and full-power Home startup remain unverified. Samsung certificate/TV support may require opening Casa Home manually after a full restart.
 
 Private accounts, signing keys and encrypted backups stay on the owner’s TV/Mac and are not uploaded here. The installer includes local privacy-safe support export. Do not disable Mac security settings.
 
 Dobby TV is based on [OpenIPTV](https://github.com/shayanline/OpenIPTV); Casa Home and signing tools are based on AeroTizen. MIT and third-party notices are included. TV update metadata is Ed25519 signed; future releases are tested and published by Sam.
 
-Mac ZIP SHA-256: `90b7a126cb7c1d41dcb480fd9c17e66a08d807d9f6a467699193058a4b6f6cb1`
+Mac ZIP SHA-256: `763f618b6f8873c497940e5da82296fe38731a5caafd07a1268a1eab9a2427f3`
 
 [Previous Dobby-only installer 1.4.1](https://github.com/SomaSam38/dobby-tv-updates/releases/download/installer-1.4.1/Dobby-TV-Installer-Mac-1.4.1.zip)
 
