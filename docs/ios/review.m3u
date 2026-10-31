@@ -1,0 +1,12 @@
+#EXTM3U
+# Public review samples only. No television subscription or private account.
+# Original sources and attribution: https://gist.github.com/SomaSam38/9ebb79b1113dbb24e5c5ce9495fc23f1
+# Episode entries deliberately reuse the same public Sintel trailer to demonstrate series controls.
+#EXTINF:-1 tvg-type="live" group-title="Playback samples",Apple HLS test video
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+#EXTINF:-1 tvg-type="movies" group-title="Playback samples",Sintel trailer — Blender Foundation
+https://media.w3.org/2010/05/sintel/trailer.mp4
+#EXTINF:-1 tvg-type="tvshows" tvg-id="dobby-public-demo-episodes" group-title="Public playback samples",Sintel sample S01 E01
+https://media.w3.org/2010/05/sintel/trailer.mp4?dobby-review=episode-1
+#EXTINF:-1 tvg-type="tvshows" tvg-id="dobby-public-demo-episodes" group-title="Public playback samples",Sintel sample S01 E02
+https://media.w3.org/2010/05/sintel/trailer.mp4?dobby-review=episode-2
